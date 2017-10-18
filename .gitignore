@@ -1,0 +1,11 @@
+*.iml
+# ignore target file created by mvn --compile
+target/*
+# Intellij IDEA folder
+.idea/*
+_windows/*
+codestyles/*
+colors.scheme.xml
+debugger.xml
+editor.xml
+ui.lnf.xml
