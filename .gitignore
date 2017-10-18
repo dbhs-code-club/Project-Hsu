@@ -1,0 +1,5 @@
+*.iml
+# ignore target file created by mvn --compile
+target/*
+# Intellij IDEA folder
+.idea/*
