@@ -3,3 +3,9 @@
 target/*
 # Intellij IDEA folder
 .idea/*
+_windows/*
+codestyles/*
+colors.scheme.xml
+debugger.xml
+editor.xml
+ui.lnf.xml
