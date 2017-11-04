@@ -6,7 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class ClassesView extends Application {
+public class StartView extends Application {
 
     public static void main(String[] args) {
         launch(args);
@@ -15,11 +15,12 @@ public class ClassesView extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("/views/ClassesView.fxml"));
+        loader.setLocation(getClass().getResource("/views/StartView.fxml"));
         Parent content = loader.load();
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(content, 300, 275));
+        primaryStage.setTitle("Project Hsu");
+        primaryStage.setScene(new Scene(content));
         primaryStage.show();
+
     }
 
 }
